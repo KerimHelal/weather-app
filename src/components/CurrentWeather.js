@@ -22,7 +22,7 @@ const CurrentWeather = ({ city, weather, summary, unit }) => {
       justify="space-between"
       alignItems="center"
     >
-      <Grid item xs={9}>
+      <Grid item lg={9}>
         <h1>{city}</h1>
         <h3>
           {new Intl.DateTimeFormat("en-GB", { dateStyle: "full" }).format(
@@ -36,7 +36,7 @@ const CurrentWeather = ({ city, weather, summary, unit }) => {
         />
         <h2>{weather.summary}</h2>
       </Grid>
-      <Grid item xs={3}>
+      <Grid item lg={3}>
         <h1 className={classes.largeText}>{weather.temperature}&deg;</h1>
         <h1>
           {displayTemperatureBasedOnUnit(unit, weather.apparentTemperature)}

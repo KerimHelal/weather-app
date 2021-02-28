@@ -36,10 +36,10 @@ const Navbar = ({ unit, setUnit }) => {
       justify="space-between"
       alignItems="center"
     >
-      <Grid item xs={10}>
+      <Grid item lgl={10} xs={9}>
         <h1>INSTAWEATHER</h1>
       </Grid>
-      <Grid item xs={2} className={classes.flex}>
+      <Grid item lg={2} xs={3} className={classes.flex}>
         <ToggleButtonGroup
           value={unit}
           exclusive
