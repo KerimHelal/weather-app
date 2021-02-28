@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import CurrentWeather from "../components/CurrentWeather";
 import ForecastWeather from "../components/ForecastWeather";
 import { getCurrentWeather } from "../helpers/WeatherMethods";
+import Alert from "react-s-alert";
 
 const Weather = () => {
   const [unit, setUnit] = useState("F");
@@ -35,7 +36,7 @@ const Weather = () => {
           });
       },
       (error) => {
-        //Alert.error(error.message);
+        Alert.error(error.message);
       }
     );
   }, []);
