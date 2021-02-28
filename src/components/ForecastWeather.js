@@ -41,7 +41,6 @@ const ForecastWeather = ({ dailyWeather, hourlyWeather, unit }) => {
   const renderHourlyWeather = () => {
     let items = [];
     let finish = 8;
-    console.log(hourlyWeather.data);
     const tabsNumber = Math.ceil((hourlyWeather.data || []).length / 8);
 
     for (let i = 0; i < tabsNumber; i++) {
