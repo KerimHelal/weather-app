@@ -2,7 +2,8 @@
 
  Application that fetches current and forecast weather data based on current location using DarkSky API  
  
- Components :   -----> Navbar  
+ Components : 
+   -----> Navbar  
               -----> CurrentWeather  
               -----> ForecastWeather  
               
