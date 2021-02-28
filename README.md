@@ -1,4 +1,4 @@
-☁️ Weather Application Using Dark Sky API ☁️ 
+<h1 align="center">☁️ Weather Application Using Dark Sky API ☁️</h1>
 
  Application that fetches current and forecast weather data based on current location using DarkSky API  
  
